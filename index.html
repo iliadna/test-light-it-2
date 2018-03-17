@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Track List</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Tracklist -->
+  <div class="main container-fluid">
+    <div class="search container-fluid">
+      <input type="text" class="form-control" id="navsearch" placeholder="Search Artist or Band">
+    </div>
+    <div class="head row container-fluid">
+      <div class="col-xs-2 col-md-2"></div>
+      <div class="col-xs-2 col-md-2">
+        <p id="artist">Artist</p>
+      </div>
+      <div class="col-xs-3 col-md-3">
+        <p id="track">Track</p>
+      </div>
+      <div class="col-xs-2 col-md-2">
+        <p id="collection">Collection</p>
+      </div>
+      <div class="col-xs-2 col-md-2">
+        <p id="genre">Genre</p>
+      </div>
+      <div class="col-xs-1 col-md-1"></div>
+    </div>
+    <div class="tracklist" id="accordion"></div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+  <script src="js/behavior.js"></script>
+</body>
+</html>
